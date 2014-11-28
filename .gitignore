@@ -6,6 +6,8 @@ MANIFEST
 pm_to_blib
 blib/
 inc/
+schema.conf
+config.yml
 *.tmp
 *~
 *.sqlite
