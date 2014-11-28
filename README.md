@@ -5,7 +5,7 @@ Delicios
 
 Version: 0.10
 
-A cooking recipes web application built with Dancer2.
+A cooking recipes web application built with Dancer2 and Bootstrap3.
 
 
 Requirements
