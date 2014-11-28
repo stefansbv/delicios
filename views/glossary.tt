@@ -1,0 +1,31 @@
+<div class="page-header">
+  <h3>Glosar</h3>
+</div>
+<div id="content" class="row">
+  <div class="col-xs-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">Termen</div>
+      <div class="panel-body pre-scrollable">
+        <div class="list-group" id="terms">
+          [% SET first = 1 %]
+          [% FOREACH gl IN terms %]
+            [%- IF first == 1 -%]
+              <a href="#" id="[% gl.id_def %]" class="list-group-item active">[% gl.term %]</a>
+            [%- ELSE -%]
+              <a href="#" id="[% gl.id_def %]" class="list-group-item">[% gl.term %]</a>
+            [%- END -%]
+          [% SET first = 0 %]
+          [% END %]
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-8">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Definiție</div>
+      <div class="panel-body">
+        <span id="currentterm">definiție</span>
+      </div>
+    </div>
+  </div>
+</div>

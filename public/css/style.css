@@ -1,0 +1,19 @@
+/* Recipes style */
+
+.page-header {
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+   padding-top: 0;
+   border-top: 0;
+   border-bottom: 0;
+}
+
+.pre-scrollable {
+   max-height: 300px;
+}
+
+.list-group{
+   width: 245px;
+}
