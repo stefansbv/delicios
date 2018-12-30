@@ -1,7 +1,7 @@
 package Delicios;
 
 use Dancer2;
-use Dancer2::Plugin::DBIC qw(schema resultset rset);
+use Dancer2::Plugin::DBIC; # qw(schema resultset rset);
 use Dancer2::Plugin::Ajax;
 
 our $VERSION = '0.001';
